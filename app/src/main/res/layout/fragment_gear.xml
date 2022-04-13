@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.InvGearFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/viewinvgearfragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gearinvscreen"
+        android:fontFamily="cursive"
+        android:text="Check Gear"
+        android:textAlignment="center"
+        android:textColor="#E9CE1E"
+        android:textSize="60sp"
+        android:textStyle="bold|italic" />
+
+</FrameLayout>
